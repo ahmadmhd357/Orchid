@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef } from "react"
+import { useEffect, useRef, useState } from "react"
 import { useTranslations } from "next-intl"
 import { Chart, registerables } from "chart.js"
 
@@ -10,8 +10,11 @@ export function DashboardChart() {
   const t = useTranslations("dashboard.chart")
   const chartRef = useRef<HTMLCanvasElement>(null)
   const chartInstance = useRef<Chart | null>(null)
+  const [isMounted, setIsMounted] = useState(false)
 
   useEffect(() => {
+    setIsMounted(true)
+
     if (!chartRef.current) return
 
     // Destroy previous chart instance if it exists
@@ -75,7 +78,12 @@ export function DashboardChart() {
         chartInstance.current.destroy()
       }
     }
-  }, [t])
+  }, [t, isMounted])
+
+  // Don't render the canvas until client-side
+  if (!isMounted) {
+    return <div className="w-full h-[300px] bg-muted/20 animate-pulse rounded-md"></div>
+  }
 
   return (
     <div className="w-full h-[300px]">
