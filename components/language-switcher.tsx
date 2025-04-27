@@ -6,7 +6,7 @@ import { Check, Globe } from "lucide-react"
 
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { Button } from "@/components/ui/button"
-import { locales } from "@/app/[locale]/layout"
+import { locales } from "../lib/locales"
 
 interface LanguageSwitcherProps {
   locale: string

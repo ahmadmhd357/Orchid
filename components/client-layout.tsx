@@ -27,15 +27,24 @@ export default function ClientLayout({
 
   if (!isMounted) {
     return (
-      <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
-        <body>
+      // <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
+      //   <body>
+      //     <div className="flex min-h-screen flex-col">
+      //       <div className="h-16 border-b"></div>
+      //       <main className="flex-1">{children}</main>
+      //       <div className="border-t"></div>
+      //     </div>
+      //   </body>
+      // </html>
+      <NextIntlClientProvider locale={locale} messages={messages}>
+        <ThemeProvider attribute="class" defaultTheme="light">
           <div className="flex min-h-screen flex-col">
-            <div className="h-16 border-b"></div>
+            <Header locale={locale} />
             <main className="flex-1">{children}</main>
-            <div className="border-t"></div>
+            <Footer locale={locale} />
           </div>
-        </body>
-      </html>
+        </ThemeProvider>
+      </NextIntlClientProvider>
     );
   }
 

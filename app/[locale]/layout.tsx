@@ -2,6 +2,7 @@
 import type React from "react";
 import { Inter } from "next/font/google";
 import { notFound } from "next/navigation";
+import {locales} from "../../lib/locales"
 import { createTranslator } from "next-intl";
 
 import ClientLayout from "@/components/client-layout";
@@ -10,7 +11,7 @@ import "@/app/globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 // List of supported locales
-export const locales = ["en", "ar", "tr"];
+// export const locales = ["en", "ar", "tr"];
 
 export default async function RootLayout({
   children,
