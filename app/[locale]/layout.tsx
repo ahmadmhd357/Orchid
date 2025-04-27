@@ -1,3 +1,4 @@
+"use client";
 import type React from "react";
 import { Inter } from "next/font/google";
 import { notFound } from "next/navigation";
@@ -11,38 +12,14 @@ const inter = Inter({ subsets: ["latin"] });
 // List of supported locales
 export const locales = ["en", "ar", "tr"];
 
-export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
-}
-
-export async function generateMetadata({
-  params: { locale },
-}: {
-  params: { locale: string };
-}) {
-  try {
-    const messages = (await import(`../../messages/${locale}.json`)).default;
-    const t = createTranslator({ locale, messages });
-
-    return {
-      title: t("metadata.title"),
-      description: t("metadata.description"),
-    };
-  } catch (error) {
-    return {
-      title: "Orchid Group - Import & Export",
-      description: "A subsidiary of Orchid Dates Corp",
-    };
-  }
-}
-
 export default async function RootLayout({
   children,
-  params: { locale },
+  params,
 }: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  const { locale } = await params;
   // Validate locale
   if (!locales.includes(locale)) {
     notFound();

@@ -1,38 +1,42 @@
-"use client"
+// components/client-layout.tsx
+"use client";
 
-import type React from "react"
-import { useEffect, useState } from "react"
-import { NextIntlClientProvider } from "next-intl"
-import { ThemeProvider } from "@/components/theme-provider"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
+import type React from "react";
+import { useEffect, useState } from "react";
+import { NextIntlClientProvider } from "next-intl";
+import { ThemeProvider } from "@/components/theme-provider";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 interface ClientLayoutProps {
-  children: React.ReactNode
-  locale: string
-  messages: any
+  children: React.ReactNode;
+  locale: string;
+  messages: any;
 }
 
-export default function ClientLayout({ children, locale, messages }: ClientLayoutProps) {
-  // Client-side only rendering to prevent hydration mismatch
-  const [isMounted, setIsMounted] = useState(false)
+export default function ClientLayout({
+  children,
+  locale,
+  messages,
+}: ClientLayoutProps) {
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    setIsMounted(true)
-  }, [])
+    setIsMounted(true);
+  }, []);
 
-  // Set the direction based on locale
-  const isRtl = locale === "ar"
-
-  // During SSR or before hydration, render a minimal layout
   if (!isMounted) {
     return (
-      <div className="flex min-h-screen flex-col">
-        <div className="h-16 border-b"></div>
-        <main className="flex-1">{children}</main>
-        <div className="border-t"></div>
-      </div>
-    )
+      <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
+        <body>
+          <div className="flex min-h-screen flex-col">
+            <div className="h-16 border-b"></div>
+            <main className="flex-1">{children}</main>
+            <div className="border-t"></div>
+          </div>
+        </body>
+      </html>
+    );
   }
 
   return (
@@ -45,5 +49,5 @@ export default function ClientLayout({ children, locale, messages }: ClientLayou
         </div>
       </ThemeProvider>
     </NextIntlClientProvider>
-  )
+  );
 }
