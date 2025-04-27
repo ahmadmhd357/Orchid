@@ -1,0 +1,460 @@
+{
+  "metadata": {
+    "title": "Orchid Group - Import & Export",
+    "description": "A subsidiary of Orchid Dates Corp"
+  },
+  "languageSwitcher": {
+    "label": "Select language",
+    "languages": {
+      "en": "English",
+      "ar": "العربية",
+      "tr": "Türkçe"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Global Import & Export Solutions",
+      "subtitle": "Connecting businesses worldwide with premium products and reliable trade services",
+      "cta": {
+        "products": "View Products",
+        "contact": "Contact Us"
+      }
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive import and export solutions for your business",
+      "items": {
+        "1": {
+          "title": "Global Sourcing",
+          "description": "We source high-quality products from trusted suppliers worldwide"
+        },
+        "2": {
+          "title": "Logistics Management",
+          "description": "End-to-end logistics solutions for seamless international trade"
+        },
+        "3": {
+          "title": "Trade Consulting",
+          "description": "Expert guidance on international trade regulations and compliance"
+        }
+      },
+      "learnMore": "Learn more"
+    },
+    "products": {
+      "title": "Featured Products",
+      "subtitle": "Explore our selection of premium products",
+      "items": {
+        "1": {
+          "title": "Premium Dates",
+          "description": "High-quality dates sourced from the finest farms"
+        },
+        "2": {
+          "title": "Organic Olive Oil",
+          "description": "Pure, cold-pressed olive oil from Mediterranean groves"
+        },
+        "3": {
+          "title": "Turkish Textiles",
+          "description": "Luxurious textiles crafted by skilled artisans"
+        }
+      },
+      "viewDetails": "View Details",
+      "viewAll": "View All Products"
+    },
+    "about": {
+      "title": "About Orchid Group",
+      "description": "Orchid Group is a leading import-export company based in Turkey, specializing in connecting businesses with premium products from around the world. As a subsidiary of Orchid Dates Corp, we leverage our extensive network to provide exceptional trade services.",
+      "learnMore": "About Us"
+    },
+    "cta": {
+      "title": "Ready to expand your business globally?",
+      "description": "Contact our team today to discuss how we can help you access new markets and premium products.",
+      "button": "Contact Us"
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "description": "Explore our diverse range of high-quality products sourced from around the world",
+    "categories": {
+      "all": "All Products",
+      "category1": "Food & Beverages",
+      "category2": "Textiles & Clothing",
+      "category3": "Home & Decor"
+    },
+    "viewDetails": "View Details",
+    "items": {
+      "1": {
+        "title": "Premium Medjool Dates",
+        "description": "Luxurious, large dates with a caramel-like taste and soft texture"
+      },
+      "2": {
+        "title": "Extra Virgin Olive Oil",
+        "description": "Cold-pressed olive oil with rich flavor and health benefits"
+      },
+      "3": {
+        "title": "Turkish Cotton Towels",
+        "description": "Soft, absorbent towels made from premium Turkish cotton"
+      },
+      "4": {
+        "title": "Handcrafted Ceramics",
+        "description": "Beautiful ceramic pieces made by skilled Turkish artisans"
+      },
+      "5": {
+        "title": "Organic Dried Fruits",
+        "description": "Naturally dried fruits with no added preservatives or sugars"
+      },
+      "6": {
+        "title": "Turkish Delight",
+        "description": "Traditional sweet confection in various flavors"
+      },
+      "7": {
+        "title": "Handwoven Rugs",
+        "description": "Authentic Turkish rugs with intricate patterns and designs"
+      },
+      "8": {
+        "title": "Spice Blends",
+        "description": "Aromatic spice mixtures for enhancing culinary creations"
+      },
+      "9": {
+        "title": "Silk Scarves",
+        "description": "Elegant scarves made from fine Turkish silk"
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Comprehensive import and export solutions to help your business thrive in global markets",
+    "items": {
+      "1": {
+        "title": "Global Sourcing",
+        "subtitle": "Find the perfect products for your business",
+        "description": "We leverage our extensive network to source high-quality products that meet your specific requirements.",
+        "features": {
+          "1": "Supplier verification and quality control",
+          "2": "Competitive pricing negotiations",
+          "3": "Sample procurement and evaluation",
+          "4": "Customized product development"
+        }
+      },
+      "2": {
+        "title": "Logistics Management",
+        "subtitle": "Seamless transportation and delivery",
+        "description": "Our comprehensive logistics services ensure your goods arrive safely and on time.",
+        "features": {
+          "1": "International shipping and freight forwarding",
+          "2": "Customs clearance and documentation",
+          "3": "Warehousing and inventory management",
+          "4": "Last-mile delivery solutions"
+        }
+      },
+      "3": {
+        "title": "Trade Consulting",
+        "subtitle": "Expert guidance for international trade",
+        "description": "Navigate the complexities of global trade with our expert consulting services.",
+        "features": {
+          "1": "Import/export regulations compliance",
+          "2": "Market entry strategies",
+          "3": "Trade documentation assistance",
+          "4": "Risk assessment and management"
+        }
+      },
+      "4": {
+        "title": "Quality Assurance",
+        "subtitle": "Ensuring product excellence",
+        "description": "Our rigorous quality control processes guarantee that all products meet international standards.",
+        "features": {
+          "1": "Pre-shipment inspections",
+          "2": "Laboratory testing and certification",
+          "3": "Quality management systems",
+          "4": "Continuous supplier monitoring"
+        }
+      },
+      "5": {
+        "title": "Market Research",
+        "subtitle": "Data-driven insights for success",
+        "description": "Make informed decisions with our comprehensive market research services.",
+        "features": {
+          "1": "Consumer trend analysis",
+          "2": "Competitive landscape assessment",
+          "3": "Pricing strategy development",
+          "4": "Market opportunity identification"
+        }
+      },
+      "6": {
+        "title": "Financial Services",
+        "subtitle": "Streamlined trade financing",
+        "description": "Access flexible financial solutions to support your international trade activities.",
+        "features": {
+          "1": "Letters of credit management",
+          "2": "Trade finance options",
+          "3": "Currency exchange services",
+          "4": "Payment processing solutions"
+        }
+      }
+    }
+  },
+  "about": {
+    "title": "About Orchid Group",
+    "subtitle": "A leading import-export company connecting businesses worldwide",
+    "overview": {
+      "title": "Our Story",
+      "description1": "Founded in 2010, Orchid Group has established itself as a trusted name in the import-export industry. Based in Turkey, we serve as a vital link between producers and businesses across the globe, facilitating seamless international trade.",
+      "description2": "Our team of experienced professionals is dedicated to providing exceptional service and building lasting relationships with our clients and partners. We pride ourselves on our integrity, reliability, and commitment to excellence in every aspect of our operations."
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide our business",
+      "items": {
+        "1": {
+          "title": "Quality",
+          "description": "We are committed to sourcing and delivering only the highest quality products that meet or exceed international standards."
+        },
+        "2": {
+          "title": "Integrity",
+          "description": "We conduct our business with honesty, transparency, and ethical practices, building trust with all our stakeholders."
+        },
+        "3": {
+          "title": "Innovation",
+          "description": "We continuously seek innovative solutions to enhance our services and address the evolving needs of our clients."
+        }
+      }
+    },
+    "parent": {
+      "title": "Part of Orchid Dates Corp",
+      "description1": "Orchid Group operates as a subsidiary of Orchid Dates Corp, a global leader in the dates industry with operations spanning multiple countries.",
+      "description2": "This strategic partnership allows us to leverage extensive resources, expertise, and networks to provide exceptional value to our clients and partners."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with our team for inquiries, quotes, or to discuss how we can support your business",
+    "form": {
+      "title": "Send Us a Message",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": {
+        "title": "Message Sent",
+        "message": "Thank you for contacting us. We'll get back to you shortly."
+      }
+    },
+    "info": {
+      "title": "Contact Information",
+      "description": "Feel free to reach out to us through any of the following channels:",
+      "address": {
+        "title": "Address",
+        "line1": "123 Trade Center, Business District",
+        "line2": "Istanbul, Turkey 34000"
+      },
+      "phone": {
+        "title": "Phone",
+        "office": "Office",
+        "mobile": "Mobile"
+      },
+      "email": {
+        "title": "Email",
+        "general": "General Inquiries",
+        "support": "Support"
+      },
+      "map": "Map will be displayed here"
+    }
+  },
+  "login": {
+    "title": "Login to Dashboard",
+    "description": "Enter your credentials to access the admin dashboard",
+    "form": {
+      "email": "Email",
+      "password": "Password",
+      "forgot": "Forgot password?",
+      "submit": "Sign In",
+      "loading": "Signing in..."
+    },
+    "error": {
+      "title": "Authentication Failed",
+      "message": "Invalid email or password. Please try again."
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "description": "Overview of your business performance and activities",
+    "nav": {
+      "dashboard": "Dashboard",
+      "products": "Products",
+      "orders": "Orders",
+      "customers": "Customers",
+      "settings": "Settings"
+    },
+    "stats": {
+      "products": "Total Products",
+      "orders": "New Orders",
+      "customers": "Active Customers",
+      "revenue": "Monthly Revenue",
+      "lastMonth": "from last month"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "analytics": "Analytics"
+    },
+    "overview": {
+      "title": "Performance Overview",
+      "description": "Your business performance over the last 6 months"
+    },
+    "analytics": {
+      "title": "Detailed Analytics",
+      "description": "In-depth analysis of your business metrics"
+    },
+    "activity": {
+      "title": "Recent Activity",
+      "description": "Latest updates and actions"
+    },
+    "chart": {
+      "sales": "Sales",
+      "revenue": "Revenue",
+      "months": {
+        "jan": "Jan",
+        "feb": "Feb",
+        "mar": "Mar",
+        "apr": "Apr",
+        "may": "May",
+        "jun": "Jun"
+      }
+    },
+    "activity": {
+      "items": {
+        "1": {
+          "title": "New Order Received",
+          "description": "Order #12345 for Premium Dates has been placed"
+        },
+        "2": {
+          "title": "Product Updated",
+          "description": "Turkish Cotton Towels inventory has been updated"
+        },
+        "3": {
+          "title": "New Customer",
+          "description": "Global Foods Inc. has registered as a new customer"
+        },
+        "4": {
+          "title": "Order Shipped",
+          "description": "Order #12340 has been shipped to the customer"
+        }
+      }
+    },
+    "products": {
+      "title": "Products",
+      "description": "Manage your product catalog",
+      "addNew": "Add Product",
+      "search": "Search products...",
+      "table": {
+        "image": "Image",
+        "name": "Name",
+        "category": "Category",
+        "price": "Price",
+        "stock": "Stock",
+        "actions": "Actions"
+      },
+      "actions": {
+        "open": "Open menu",
+        "edit": "Edit",
+        "delete": "Delete",
+        "deleteConfirm": {
+          "title": "Are you sure?",
+          "description": "This will permanently delete the product \"{{name}}\". This action cannot be undone.",
+          "cancel": "Cancel",
+          "confirm": "Delete"
+        },
+        "deleteSuccess": {
+          "title": "Product Deleted",
+          "description": "\"{{name}}\" has been successfully deleted."
+        }
+      }
+    },
+    "productEdit": {
+      "titleNew": "Add New Product",
+      "descriptionNew": "Create a new product in your catalog",
+      "titleEdit": "Edit Product",
+      "descriptionEdit": "Update product information and settings",
+      "tabs": {
+        "general": "General",
+        "images": "Images",
+        "translations": "Translations"
+      },
+      "form": {
+        "name": "Product Name",
+        "description": "Description",
+        "category": "Category",
+        "selectCategory": "Select a category",
+        "categories": {
+          "1": "Food & Beverages",
+          "2": "Textiles & Clothing",
+          "3": "Home & Decor"
+        },
+        "price": "Price",
+        "stock": "Stock",
+        "save": "Save Product",
+        "saving": "Saving...",
+        "cancel": "Cancel"
+      },
+      "toasts": {
+        "created": {
+          "title": "Product Created",
+          "description": "The product has been successfully created."
+        },
+        "updated": {
+          "title": "Product Updated",
+          "description": "The product has been successfully updated."
+        }
+      },
+      "images": {
+        "dropzone": {
+          "title": "Upload Product Images",
+          "description": "Drag and drop your images here, or click to browse",
+          "browse": "Browse Files"
+        },
+        "gallery": {
+          "title": "Product Gallery",
+          "remove": "Remove image"
+        },
+        "uploadSuccess": {
+          "title": "Image Uploaded",
+          "description": "The image has been successfully uploaded."
+        },
+        "removeSuccess": {
+          "title": "Image Removed",
+          "description": "The image has been successfully removed."
+        }
+      },
+      "translations": {
+        "english": "English",
+        "arabic": "Arabic",
+        "turkish": "Turkish"
+      }
+    }
+  },
+  "footer": {
+    "description": "Orchid Group is a leading import-export company connecting businesses with premium products and reliable trade services worldwide.",
+    "subsidiary": "A subsidiary of Orchid Dates Corp",
+    "links": {
+      "company": {
+        "title": "Company",
+        "about": "About Us",
+        "services": "Services",
+        "products": "Products",
+        "contact": "Contact"
+      },
+      "legal": {
+        "title": "Legal",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "address": "123 Trade Center, Business District, Istanbul, Turkey 34000",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "copyright": "All rights reserved."
+  }
+}
